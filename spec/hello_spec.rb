@@ -65,3 +65,13 @@ Running method divide
     end
   end
 end
+
+describe "#power" do
+  subject { power(left, right) }
+
+  let(:left) { 2 }
+  let(:right) { 3 }
+  let(:result) { 8 }
+
+  it { is_expected.to eq result }
+end

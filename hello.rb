@@ -10,6 +10,11 @@ def divide(left, right)
   left / right
 end
 
+def power(left, right)
+  left ** right
+end
+
+
 def app
   puts "Running method sum"
   result = sum(gets.to_i, gets.to_i)
